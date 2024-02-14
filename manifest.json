@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "Fill Inputs",
+    "description": "A form filler that fills all inputs on a page with fake data.",
+    "version": "1.0",
+    "action": {
+        "default_icon": {
+            "16": "images/icons-16.png",
+            "32": "images/icons-32.png",
+            "48": "images/icons-48.png",
+            "128": "images/icons-128.png"
+        }
+    },
+    "permissions": [
+        "activeTab",
+        "scripting"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    }
+}
